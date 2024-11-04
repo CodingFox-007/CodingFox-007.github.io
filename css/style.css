@@ -1,0 +1,109 @@
+header{
+    background-image: url(../images/blue.gif);
+    background-position:50%;
+    background-size: 150%;
+    font-size: large;
+    height: 200px;
+    border-radius: 10px;
+    border:solid 2px;
+}
+body{
+    background-color: rgb(0, 19, 31);
+    color: aquamarine;
+}
+#pagetitle {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    border: solid;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(1, 138, 165);
+    width:200px;
+    height: 50px;
+    line-height: 50px;
+
+}
+#title {
+    color: aquamarine;
+    display: flex;
+    font-size: 300%;
+    justify-content: center;
+    text-align: center;
+}
+#homelink{
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: solid;
+}
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+}
+#resume-text{
+    color: aquamarine;
+    font-size: 150%;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 3px;
+    border-radius: 10px;
+}
+
+a:link{
+    width: 100%;
+    color: rgb(0, 193, 196);
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+    border:solid;
+}
+a:hover {
+    width: 100%;
+    color: rgb(0, 192, 217);
+    background-color: rgb(37, 52, 47);
+    border-radius: 10px;
+}
+#maincontent{
+    display: grid;
+    padding-top: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+#cp, #ru{
+    width: 95%;
+    border: solid;
+    border-radius:10px;
+    text-align: center;
+}
+
+#hs-education{
+    color: aquamarine;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    border-radius:10px;
+}
+
+#c-education{
+    color: aquamarine;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    border-radius:10px;
+}
+
+ul{
+    font-size: large;
+    border: solid;
+    border-radius: 10px;
+    width: 90%;
+}
+footer{
+    padding-top: 50px;
+}
