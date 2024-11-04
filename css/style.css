@@ -75,8 +75,13 @@ a:hover {
     padding-top: 10px;
     grid-template-columns: 1fr 1fr;
 }
-#cp, #ru{
-    width: 95%;
+#homepage{
+    border: solid;
+    border-radius: 10px;
+    font-size: 125%;
+}
+#intrests, #hobbies{
+    width: 98%;
     border: solid;
     border-radius:10px;
     text-align: center;
