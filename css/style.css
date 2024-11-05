@@ -91,7 +91,8 @@ a:hover {
     color: aquamarine;
     border: solid;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     border-radius:10px;
 }
 
@@ -99,8 +100,27 @@ a:hover {
     color: aquamarine;
     border: solid;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     border-radius:10px;
+}
+
+#hslogo{
+    width:50%;
+}
+#ihlogo{
+    width:90%;
+    padding-top: 20px;
+    padding-bottom: 33px;
+}
+
+#education{
+    border: solid;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 ul{
